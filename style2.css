@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+body {
+    background-image: url("WallpaperJocAle.jpg");
+    /*background-color: #859ba0;*/
+}
+
+*{
+    margin: 0cm;
+}
+
+h1{
+    color: blue;
+    font-family: 'Itim', cursive;
+    background-color: aqua;
+    position: relative;
+}
+
+h2{
+    color: darkgreen;
+    font-family: 'Dancing Script', cursive;
+}
+
+.lactec a{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: darkred; 
+    font-size: 30px;
+    color: white;
+}
+
+.google a{
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    text-decoration: none; 
+}
+
+strong{
+    color: red;
+}
+
+.css-1 {
+    padding-top: 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;   /*flexiviliza o movimento dos objetos*/
+    grid-template-columns: 58px 115px 1fr; 
+    -webkit-box-align: center;
+    align-items: center;
+    grid-auto-flow: row;
+    height: 100%;
+    background-color: darkslategrey;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.Title {
+    display: flex;
+    width: 40%;
+}
+
+.cabecalho-robo {
+    padding: 12px;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.cabecalho-title {
+    color: cornsilk;
+    font: bold 30px 'Roboto', sans-serif;
+    padding: 12px;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.cabecalho-botao {
+    border: none;
+    outline: none;
+    background-color: brown;
+    color:#fff;
+
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 32px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;  
+    
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+
+    -ms-flex-pack: center;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: flex-end;
+
+    transition: all 0.2s ease;
+    max-width: 118px;
+
+    box-sizing: border-box; /*colocou o botão menor*/
+    font-family: Helvetica, Arial, sans-serif;
+    margin-right: 10px;
+}
+
+.cabecalho-botao a{
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
